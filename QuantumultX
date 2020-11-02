@@ -46,7 +46,6 @@ https://subcon.dlj.tf/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRl
 [rewrite_remote]
 https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Rewrite/Rewrite.list, enabled=true
 https://gitee.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.quanx.tf.conf, tag=Boxjs, update-interval=86400, opt-parser=false, enabled=true
-https://gitee.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.quanx.tf.conf, tag=Boxjs, update-interval=86400, opt-parser=false, enabled=true
 #下面两条去广告订阅默认禁用，开启后会写入大量的重写规则和主机名，非去广告重度用户建议保持禁用！
 https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Rewrite_lhie1.conf, tag=轻度去广告(400+规则), update-interval=86400, opt-parser=false, enabled=false
 #⚠️ 注意：TikTok 区域解锁重写一次只可启用一个，不可多个地区同时使用。
