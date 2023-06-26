@@ -1,4 +1,4 @@
-var token = "8dad7d671a89400a818fd76178ca76ae";
+var token = "40206c1278b240e5a63d52b4d310daaf";
 var url = $request.url;
 var headers = $request.headers;
 
