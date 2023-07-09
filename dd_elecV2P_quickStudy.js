@@ -2,7 +2,13 @@ const urlPattern = /^https:\/\/tmsh5\.faw-vw\.com\/gateway-elearning\/api-course
 const modifiedUrl = $request.url.replace(/\d+\?/, "8888?");
 
 if (urlPattern.test($request.url)) {
-    $done({ url: modifiedUrl });
+    $task.fetch({
+        url: modifiedUrl
+    }).then(response => {
+        $done({ response });
+    }).catch(error => {
+        $done({});
+    });
 } else {
     $done({});
 }
